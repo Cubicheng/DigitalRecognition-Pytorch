@@ -94,7 +94,19 @@
     <div class="container">
         <div class="row m-4">
             <div class="col-12">
-                <canvas id="draw" width="512" height="512" style="border: 0 solid #000;"></canvas>
+                <span class="fs-1 fw-bold text-primary">Handwritten Digit Recognition</span>
+            </div>
+        </div>
+        <div class="row m-4">
+            <div class="col-12">
+                <p class="fs-4 text-secondary">
+                Please write a number from 0 to 9 on the canvas below.
+                </p>
+            </div>
+        </div>
+        <div class="row m-4">
+            <div class="col-12">
+                <canvas id="draw" width="384" height="384" style="border: 0 solid #000;"></canvas>
             </div>
         </div>
         <div class="row m-4">
@@ -105,7 +117,7 @@
         </div>
         <div id="info" class="row m-4" style="display:none;">
             <div class="col-12">
-                <p class="fs-4 text-secondary">The result is
+                <p class="fs-4 text-secondary">The predicted number is
                     <span id="result" class="fs-1 fw-bold text-primary">7</span>
                     , with a
                     <span id="probability" class="fs-4 text-primary">99%</span>
